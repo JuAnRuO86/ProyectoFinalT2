@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<?xml-stylesheet href="biblioteca.css"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/juaan/OneDrive/Escritorio/DAW_CENEC/Lenguaje%20de%20marcas/finalT2/biblioteca.xsd">
+  <libro id="miki">
+    <foto>miki.webp</foto>
+    <sexo>Masculino</sexo>
+    <titulo>Miki el cowboy</titulo>
+    <autor fechaNacimiento="08/06/1977">Milan Kundera</autor>
+    <fechaPublicacion año="1981"/>
+  </libro>
+  <libro id="senda">
+    <foto>senda.webp</foto>
+    <sexo>Femenino</sexo>
+    <titulo>Senda la dormilona</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro id="summer">
+    <foto>summer.webp</foto>
+    <sexo>Masculino</sexo>
+    <titulo>Summer el tomador de sol</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>

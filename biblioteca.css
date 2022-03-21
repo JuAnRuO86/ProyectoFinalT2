@@ -1,0 +1,53 @@
+
+p{
+color:blue !important;
+background-color:yellow;
+}
+h2{
+    display: flex;
+    font-size: 20px;
+}
+
+.estrecho{
+    display: none;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+div img{
+    width: 300px;
+    height: 300px;
+}
+
+
+img:active{
+    filter:grayscale(100%);
+    box-shadow: 5px 10px grey;
+    
+}
+
+h2:hover{
+    transform: scale(120%);
+    justify-content: center;
+    
+}
+
+.contenedor:active{
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 550px) {
+    div{
+        display: none;
+    }
+    .estrecho{
+        display: inline;
+    }
+}
